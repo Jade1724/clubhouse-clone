@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "../components/Header";
 
 export default function Home() {
-    return <div>
-        <h2>Goodbye world</h2>
-    </div>
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
