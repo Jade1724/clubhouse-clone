@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "GOOD TIME",
+    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "members": [
+      {
+        "first_name": "Sriram",
+        "last_name": "krishnan"
+      },
+      {
+        "first_name": "Aarthi",
+        "last_name": "Ramamurthy"
+      },
+      {
+        "first_name": "Steven",
+        "last_name": "Sinofsky"
+      },
+      {
+        "first_name": "Paul",
+        "last_name": "Davison"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "BETTER TIME",
+    "sub_title": "REZZ x Deadmau5 the back story of Hypnocurrency",
+    "members": [
+      {
+        "first_name": "Haruka",
+        "last_name": "Ichinose"
+      },
+      {
+        "first_name": "Kerry",
+        "last_name": "Chen"
+      },
+      {
+        "first_name": "Tracy",
+        "last_name": "Cui"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BEST TIME",
+    "sub_title": "Skrillex x Diplo we are the god of EDM",
+    "members": [
+      {
+        "first_name": "Haruka",
+        "last_name": "Ichinose"
+      },
+      {
+        "first_name": "Tim",
+        "last_name": "Hung"
+      }
+    ]
+  }
+]
