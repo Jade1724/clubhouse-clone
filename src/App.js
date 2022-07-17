@@ -6,6 +6,8 @@ import Welcome from "./pages/Welcome";
 import PhoneConfirmation from "./pages/PhoneConfirmation";
 import CodeConfirmation from "./pages/CodeConfirmation";
 import AllowNotification from "./pages/AllowNotification";
+import AppLayout from "./pages/layouts/AppLayout";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -32,6 +34,13 @@ function App() {
             />
           </Switch>
         </PlanLayout>
+      </Route>
+      <Route exact path={['/home']}>
+        <AppLayout>
+          <Switch>
+            <Route exact path='/home' component={() => <Home />} />
+          </Switch>
+        </AppLayout>
       </Route>
     </BrowserRouter>
   );
