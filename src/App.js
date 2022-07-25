@@ -8,6 +8,7 @@ import CodeConfirmation from "./pages/CodeConfirmation";
 import AllowNotification from "./pages/AllowNotification";
 import AppLayout from "./pages/layouts/AppLayout";
 import Home from "./pages/Home";
+import Explore from "./pages/Explore";
 
 function App() {
   return (
@@ -35,10 +36,11 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={['/home']}>
+      <Route exact path={['/home', '/explore']}>
         <AppLayout>
           <Switch>
             <Route exact path='/home' component={() => <Home />} />
+            <Route exact path='/explore' component={() => <Explore />} />
           </Switch>
         </AppLayout>
       </Route>

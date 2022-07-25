@@ -1,0 +1,46 @@
+{
+    "people": [
+        {
+            "title": "April Underwood",
+            "description": "CEO and Founder, local Laboratory. Join now and become a legend!"
+        },
+        {
+            "title": "Helena Price Hambrecht",
+            "description": "Founder @drinkaus / Twitter @helena"
+        },
+        {
+            "title": "James Cham",
+            "description": "@jamescham"
+        }
+    ],
+    "conversation": [
+        {
+            "title": "Tech",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        },
+        {
+            "title": "Language",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        },
+        {
+            "title": "Places",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        },
+        {
+            "title": "Identity",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        },
+        {
+            "title": "Sports",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        },
+        {
+            "title": "Life",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        },
+        {
+            "title": "Music",
+            "description": "Venture Capital, DTC, AI, SaaS, Angel Invensting"
+        }
+    ]
+}
