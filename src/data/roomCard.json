@@ -5,18 +5,22 @@
     "sub_title": "Calvin Harris x Email Nava on Good Time Show",
     "members": [
       {
+        "id": 1,
         "first_name": "Sriram",
         "last_name": "krishnan"
       },
       {
+        "id": 2,
         "first_name": "Aarthi",
         "last_name": "Ramamurthy"
       },
       {
+        "id": 3,
         "first_name": "Steven",
         "last_name": "Sinofsky"
       },
       {
+        "id": 4,
         "first_name": "Paul",
         "last_name": "Davison"
       }
@@ -28,14 +32,17 @@
     "sub_title": "REZZ x Deadmau5 the back story of Hypnocurrency",
     "members": [
       {
+        "id": 1,
         "first_name": "Haruka",
         "last_name": "Ichinose"
       },
       {
+        "id": 2,
         "first_name": "Kerry",
         "last_name": "Chen"
       },
       {
+        "id": 3,
         "first_name": "Tracy",
         "last_name": "Cui"
       }
