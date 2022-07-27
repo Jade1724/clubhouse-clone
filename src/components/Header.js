@@ -4,7 +4,7 @@ import style from "../style/header.module.css";
 import { FiSearch } from "react-icons/fi";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BiCalendar } from "react-icons/bi";
-import { IoIosNotificationsOutline } from 'react-icons/io';
+import { IoIosNotificationsOutline } from "react-icons/io";
 
 export default function Header() {
   return (

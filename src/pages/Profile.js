@@ -4,7 +4,11 @@ import exploreStyle from "../style/explore.module.css";
 import style from "../style/profile.module.css";
 import { IoIosArrowBack } from "react-icons/io";
 import { BsAt, BsUpload, BsPlus } from "react-icons/bs";
-import { AiOutlineSetting, AiOutlineTwitter, AiOutlineInstagram } from "react-icons/ai";
+import {
+  AiOutlineSetting,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
 export default function Profile() {
   return (
@@ -48,15 +52,17 @@ export default function Profile() {
           </button>
         </div>
         <div className={style.nominated}>
-            <img src="/images/user-image2.jpg" />
-            <div>
-                <p>Joined 14-July-2020</p>
-                <p>Nomiated by <span></span>Tomohiro Ichinose</p>
-            </div>
+          <img src="/images/user-image2.jpg" />
+          <div>
+            <p>Joined 14-July-2020</p>
+            <p>
+              Nomiated by <span></span>Tomohiro Ichinose
+            </p>
+          </div>
         </div>
         <p>Member of</p>
         <button className={style.addMemberBtn}>
-            <BsPlus />
+          <BsPlus />
         </button>
       </div>
     </>

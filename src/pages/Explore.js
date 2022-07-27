@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "../style/explore.module.css";
 import { DownOutlined, FireOutlined } from "@ant-design/icons";
 import { Input } from "antd";
@@ -12,7 +12,7 @@ export default function Explore() {
   return (
     <div className={style.exploreContainer}>
       <div className={style.header}>
-        <SubHeader pageTitle="EXPLORE"/>
+        <SubHeader pageTitle="EXPLORE" />
         <Input
           style={{
             backgroundColor: "#f4f4f4",
@@ -23,7 +23,12 @@ export default function Explore() {
           }}
           size="large"
           placeholder="Find People and Clubs"
-          prefix={<FiSearch className={style.exploreSvg} style={{width: "15px", height: "15px"}}/>}
+          prefix={
+            <FiSearch
+              className={style.exploreSvg}
+              style={{ width: "15px", height: "15px" }}
+            />
+          }
         ></Input>
       </div>
       <h6> PEOPLE TO FOLLOW</h6>

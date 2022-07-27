@@ -12,7 +12,12 @@ export default function PhoneConfirmation() {
         <IoIosArrowBack />
       </Link>
       <h1>Enter your phone number</h1>
-      <PhoneInput international defaultCountry="US" value={value} onChange={setValue} />
+      <PhoneInput
+        international
+        defaultCountry="US"
+        value={value}
+        onChange={setValue}
+      />
       <p>
         By entering your number, you're agreeing to our{" "}
         <span>Terms of Service and Privacy Policy. </span>
@@ -23,7 +28,7 @@ export default function PhoneConfirmation() {
         to="/code_confirm"
         className="primaryBtn d-flex align-items-center"
       >
-        Next <IoIosArrowForward className="ms-1"/>
+        Next <IoIosArrowForward className="ms-1" />
       </Link>
     </div>
   );

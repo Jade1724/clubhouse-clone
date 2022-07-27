@@ -38,12 +38,12 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={['/home', '/explore', '/profile']}>
+      <Route exact path={["/home", "/explore", "/profile"]}>
         <AppLayout>
           <Switch>
-            <Route exact path='/home' component={() => <Home />} />
-            <Route exact path='/explore' component={() => <Explore />} />
-            <Route exact path="/profile" component={() => <Profile />} />
+            <Route exact path="/home" component={() => <Home />} />
+            <Route exact path="/explore" component={Explore} />
+            <Route exact path="/profile" component={Profile} />
           </Switch>
         </AppLayout>
       </Route>
