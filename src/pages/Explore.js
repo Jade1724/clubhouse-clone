@@ -23,7 +23,7 @@ export default function Explore() {
           }}
           size="large"
           placeholder="Find People and Clubs"
-          prefix={<FiSearch style={{width: "15px", height: "15px"}}/>}
+          prefix={<FiSearch className={style.exploreSvg} style={{width: "15px", height: "15px"}}/>}
         ></Input>
       </div>
       <h6> PEOPLE TO FOLLOW</h6>

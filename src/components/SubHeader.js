@@ -7,7 +7,7 @@ export default function SubHeader({ pageTitle }) {
   return (
     <div className={style.head}>
       <Link to="/home">
-        <IoIosArrowBack />
+        <IoIosArrowBack className={style.exploreSvg}/>
       </Link>
       <h3>{pageTitle}</h3>
     </div>
